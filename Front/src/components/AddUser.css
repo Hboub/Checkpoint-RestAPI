@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent !important;
+}
+Button {
+  background-color: #0e101c !important;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #4f6294 !important;
+  padding: auto 40px auto 40px;
+  font-size: 15px !important;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 30px;
+  margin: auto 20px 20px 20px;
+}
+Button:hover {
+  border: 1px solid #bf1650 !important;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.7s;
+}

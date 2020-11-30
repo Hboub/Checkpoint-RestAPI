@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 7%;
+  box-sizing: border-box;
+  background-color: #081229;
+}
+.App {
+  padding: 5%;
+  min-width: fit-content;
+  min-height: fit-content;
+  box-sizing: border-box;
+  height: 590px;
+}
+.button {
+  padding: 10px;
+  width: 150px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 700;
+}
+/* card for displaying contact */
+.contact-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+Button {
+  background-color: #0e101c !important;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #4f6294 !important;
+  padding: auto 40px auto 40px;
+  font-size: 15px !important;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 30px;
+}
+Button:hover {
+  border: 2px solid #bf1650 !important;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+.card,.card-header {
+  background-color: #0d1c3f !important;
+}
+.form-label,.card-title,p {
+  color: white !important;
+}
+h5{
+  margin-bottom: 20px!important;
+}
