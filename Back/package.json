@@ -8,7 +8,7 @@
     "back": "nodemon server.js",
     "dev": "concurrently \"npm run front\" \"npm run back\""
   },
-  "author": "wael harrath",
+  "author": "Hboub",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
